@@ -1,0 +1,13 @@
+[package]
+name = "ipmi-fans"
+version = "0.1.0"
+authors = ["Matthew Donoughe <mdonoughe@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+env_logger = "0.7"
+libfreeipmi-sys = { path = "../libfreeipmi-sys" }
+log = "0.4"

@@ -1,0 +1,2 @@
+[workspace]
+members = ["ipmi-fans", "libfreeipmi-sys"]
