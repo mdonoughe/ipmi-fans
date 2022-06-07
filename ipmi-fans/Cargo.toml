@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 anyhow = "1"
-env_logger = "0.7"
+env_logger = "0.9"
 libfreeipmi-sys = { path = "../libfreeipmi-sys" }
 log = "0.4"
